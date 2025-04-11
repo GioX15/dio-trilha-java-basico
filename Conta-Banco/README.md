@@ -52,4 +52,4 @@ Sinta-se à vontade para explorar e modificar o código para aprimorar suas habi
 
 ## Autor
 
-Este código foi desenvolvido por \Giox15 como parte do desafio do curso de Java Básico da DIO.
+Este código foi desenvolvido por \[Seu Nome] como parte do desafio do curso de Java Básico da DIO.
