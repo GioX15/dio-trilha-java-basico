@@ -1,18 +1,61 @@
-## Getting Started
+# Desafio Contador DIO Bradesco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém a solução para o desafio do contador proposto no bootcamp DIO Bradesco. O desafio consiste em criar um programa Java que recebe dois números inteiros do usuário e realiza a contagem do primeiro número até o segundo.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+-   Solicita ao usuário que digite dois números inteiros.
+-   Realiza a contagem do primeiro número até o segundo, exibindo cada número no console.
+-   Implementa tratamento de exceção para garantir que o segundo número seja maior que o primeiro.
+-   Caso o segundo número seja menor que o primeiro, exibe uma mensagem de erro e realiza a contagem invertida.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como Executar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1.  Clone este repositório para sua máquina local:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    ```bash
+    clone o repositorio
+    ```
 
-## Dependency Management
+2.  Navegue até o diretório do projeto:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    ```bash
+    cd [dio-trilha-java-basico/Contador-Java]
+    ```
+
+3.  Compile o código Java:
+
+    ```bash
+    javac Contador.java
+    ```
+
+4.  Execute o programa:
+
+    ```bash
+    java Contador
+    ```
+
+## Tratamento de Exceções
+
+O programa inclui um tratamento de exceções para garantir que o segundo número digitado pelo usuário seja maior que o primeiro. Caso contrário, uma exceção `ParametrosInvalidosException` será lançada e a seguinte mensagem de erro será exibida no console:
+
+
+Além disso, o programa realizará a contagem de forma invertida, do segundo número até o primeiro.
+
+## Estrutura do Projeto
+
+-   `Contador.java`: Contém a classe principal `Contador` com a lógica do programa.
+-   `ParametrosInvalidosException.java`: Define a exceção personalizada `ParametrosInvalidosException`.
+-   `README.md`: Este arquivo, contendo a documentação do projeto.
+
+## Atualizações
+
+-   **1.1:** Adicionado tratamento de exceção para contagem invertida. Agora, caso o segundo número seja menor que o primeiro, o programa exibe uma mensagem de erro e realiza a contagem de forma invertida.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Autor
+
+-   \GioX15

@@ -15,7 +15,21 @@ public class Contador {
             contar(parametroUm, parametroDois);
 
         } catch (ParametrosInvalidosException exception) {
-            System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+            System.out.println("ERRO!! O segundo parâmetro deveria ser maior que o primeiro");
+            
+            //atualização do programa...
+
+            System.out.println("contudo o programa irá continuar a execução");
+            System.out.println("Contando de " + parametroUm + " até " + parametroDois);
+            System.out.println("de forma invertida");
+            
+            // Aqui o programa deve contar de parametroUm até parametroDois, mesmo que o primeiro parâmetro seja maior que o segundo.
+            // O programa deve imprimir todos os números entre os dois parâmetros, inclusive os próprios parâmetros.    
+
+            int contando = parametroUm - parametroDois;
+            for (int i = 0; i <= contando; i++) {
+                System.out.println(parametroUm - i);
+            }
         }
 
         terminal.close();
