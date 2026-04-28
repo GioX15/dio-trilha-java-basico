@@ -1,0 +1,7 @@
+C:\Users\giova\OneDrive\탍ea de Trabalho\PROJETO\bradesco\dio-trilha-java-basico\Conta-Banco-V2\src\banco\interfaces\OperacoesBancarias.java
+C:\Users\giova\OneDrive\탍ea de Trabalho\PROJETO\bradesco\dio-trilha-java-basico\Conta-Banco-V2\src\banco\main\Banco.java
+C:\Users\giova\OneDrive\탍ea de Trabalho\PROJETO\bradesco\dio-trilha-java-basico\Conta-Banco-V2\src\banco\modelo\Cliente.java
+C:\Users\giova\OneDrive\탍ea de Trabalho\PROJETO\bradesco\dio-trilha-java-basico\Conta-Banco-V2\src\banco\modelo\ContaBancaria.java
+C:\Users\giova\OneDrive\탍ea de Trabalho\PROJETO\bradesco\dio-trilha-java-basico\Conta-Banco-V2\src\banco\modelo\ContaCorrente.java
+C:\Users\giova\OneDrive\탍ea de Trabalho\PROJETO\bradesco\dio-trilha-java-basico\Conta-Banco-V2\src\banco\modelo\ContaPoupanca.java
+C:\Users\giova\OneDrive\탍ea de Trabalho\PROJETO\bradesco\dio-trilha-java-basico\Conta-Banco-V2\src\banco\util\RegistroCPF.java
